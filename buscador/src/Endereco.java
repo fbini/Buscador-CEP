@@ -1,3 +1,4 @@
-public record Endereco(String cep, String logradouro, String complemento,
+public record Endereco(String cep, String logradouro,
+                       String complemento,
                        String localidade, String uf) {
 }
